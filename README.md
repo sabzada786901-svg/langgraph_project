@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LangGraph AI Agent
 
 A complete, beginner-friendly, general-purpose AI agent built with **LangChain**
@@ -276,3 +277,6 @@ type `yes` or `no` before anything is actually deleted.
 - `.env.example` documents which variables exist (with empty placeholders)
   so anyone cloning the project knows what to configure, without ever
   exposing a real secret.
+=======
+# langgraph_project
+>>>>>>> b862e43c8afd20a66356bda42b42232f286c5de5
