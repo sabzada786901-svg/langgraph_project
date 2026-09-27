@@ -1,0 +1,14 @@
+# Core LangChain / LangGraph
+langchain>=1.0.0
+langchain-core>=1.4.0
+langgraph>=1.2.0
+
+# LLM providers
+langchain-groq>=1.1.0      # Groq
+langchain-openai>=1.0.0    # Also used for OpenRouter (OpenAI-compatible API)
+
+# Environment variables
+python-dotenv>=1.0.1
+
+# Optional tracing (safe to keep installed even if unused)
+langsmith>=0.7.0

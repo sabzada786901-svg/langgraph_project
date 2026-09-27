@@ -1,0 +1,26 @@
+AI agents are systems built around a language model that can decide, on
+their own, which actions or tools to use in order to accomplish a goal.
+Unlike a simple chatbot, an agent can call external tools, look at the
+results, and decide what to do next -- repeating this loop until it has
+enough information to give a final answer.
+
+LangGraph is a library for building these agents as graphs of nodes and
+edges. Each node is a step (for example: call the language model, or run a
+tool), and edges (including conditional edges) decide which node runs next.
+This makes it possible to build loops, branches, and pauses that a simple
+linear chain cannot express.
+
+Agentic RAG means the agent itself decides whether retrieving information
+from a knowledge base is necessary for a given question, instead of always
+retrieving documents for every single message. If a question is general
+knowledge, the agent answers directly; if the question is clearly about
+internal or company-specific information, the agent calls a retrieval tool
+first and grounds its answer in what it finds.
+
+Human-in-the-loop is a safety pattern where the agent pauses before taking
+a sensitive or irreversible action (such as deleting a file or sending an
+email) so that a human can review and approve or reject it before it
+actually happens.
+
+Our internal support team can be reached at support@example.com during
+business hours, Monday through Friday.

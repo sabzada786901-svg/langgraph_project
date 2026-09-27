@@ -1,0 +1,27 @@
+# Environment variables (contains real API keys)
+.env
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Editors
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Packaging artifacts
+*.egg-info/
+build/
+dist/

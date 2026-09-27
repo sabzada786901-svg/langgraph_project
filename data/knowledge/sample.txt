@@ -1,0 +1,7 @@
+This is a sample file inside the project's allowed data/knowledge directory.
+
+You can ask the agent to read this file, and it will return this exact text.
+
+You can also ask the agent to delete this file. Because deletion is a
+sensitive, irreversible action, the agent will first pause and ask you to
+approve or reject it in the terminal.
