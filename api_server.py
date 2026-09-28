@@ -1,8 +1,8 @@
 from typing import Any
 
-from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
+from fastapi import FastAPI  # type: ignore[import-not-found]
+from fastapi.middleware.cors import CORSMiddleware  # type: ignore[import-not-found]
+from pydantic import BaseModel, Field
 
 from agent.graph import build_graph
 from langgraph.types import Command
