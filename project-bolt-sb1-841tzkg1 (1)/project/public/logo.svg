@@ -1,0 +1,20 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fai-grad" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="fai-grad-soft" x1="20" y1="20" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="url(#fai-grad)"/>
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="black" fill-opacity="0.05"/>
+  <!-- Friendly face / spark hybrid -->
+  <circle cx="25" cy="28" r="3.5" fill="white" fill-opacity="0.95"/>
+  <circle cx="39" cy="28" r="3.5" fill="white" fill-opacity="0.95"/>
+  <path d="M23 38 Q32 44 41 38" stroke="white" stroke-opacity="0.95" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <!-- Spark accent -->
+  <path d="M48 12 L50 16 L54 18 L50 20 L48 24 L46 20 L42 18 L46 16 Z" fill="url(#fai-grad-soft)" opacity="0.9"/>
+</svg>

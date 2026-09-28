@@ -12,3 +12,6 @@ python-dotenv>=1.0.1
 
 # Optional tracing (safe to keep installed even if unused)
 langsmith>=0.7.0
+fastapi
+uvicorn
+python-multipart
